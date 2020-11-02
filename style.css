@@ -1,0 +1,294 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Bungee);
+@import url(https://fonts.googleapis.com/css?family=Slabo);
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    cursor: pointer;
+    z-index: 10;
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 0px;
+    margin-top: 0px;
+    opacity: 0.8;
+    left: 0px;
+}
+
+.menu:hover {
+    opacity: 1.0;
+    transition: 1.2s;
+}
+
+.links {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding-right: 25px;
+    padding-left: 33px;
+    display: inline;
+    text-decoration-color: #7B8C9A;
+}
+
+.links:hover {
+    transition: 1.2s;
+    text-decoration: underline;
+    text-decoration-color: #7B8C9A;
+}
+
+
+#top {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    left: 0;
+    top: 0px;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(#FFEA00, #FFF9B6);
+    display: table;
+    width: 100%;
+    height: 100%;
+    color: black;
+    z-index: 9;
+}
+
+.topimage {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    padding: 30px;
+    z-index: 10;
+}
+
+#name {
+    font-family: 'Lobster';
+    font-weight: bold;
+    font-size: 50px;
+    z-index: 10;
+}
+
+#parah1 {
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'B612', sans-serif;
+    text-align: center;
+    color: black;
+    z-index: 10;
+}
+
+#main {
+    background: linear-gradient(#FFF9B6, #FFEA00);
+    color: black;
+    text-align: center;
+    overflow: hidden;
+}
+
+.title {
+    font-family: 'Bungee';
+    font-weight: 200;
+    font-style: italic;
+    text-shadow: 2px 2px;
+}
+
+.subtitle {
+    font-family: 'Lobster';
+    font-weight: bold;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.parah {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+    font-weight: 300px;
+    font-family: 'B612', sans-serif;
+}
+
+#work {
+    background: linear-gradient(#FAF5C0, #DEDEDE);
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 130px;
+}
+
+.images {
+    width: 500px;
+    height: 400px;
+    margin: 20px;
+}
+
+.row {
+    display: inline-block;
+}
+
+#videos {
+    background: linear-gradient(#DEDEDE, #FAF5C0);
+    color: black;
+    padding-top: 10px;
+    margin-top: 130px;
+}
+
+#videos iframe {
+    margin: 5px;
+}
+
+#apps {
+    margin-top: 130px;
+    width: 100%;
+    height: 1250px;
+    background: linear-gradient(#FFA940, #FFD5A1);
+    overflow: hidden;
+}
+
+#apps iframe {
+    margin: 30px;
+}
+
+.applink {
+    text-shadow: none;
+    font-size: 30px;
+    font-family: 'B612', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#myCarousel {
+    background-color: azure;
+}
+
+#myCarousel img {
+    height: 300px;
+    margin-top: 35px;
+}
+
+#myCarousel img:hover {
+    transition: 1.2s;
+    width: 270px;
+}
+
+
+#design {
+    margin-top: 130px;
+    width: 100%;
+    height: 1700px;
+    background: linear-gradient(#FFD5A1, #FFA940);
+}
+
+#design iframe {
+    margin: 10px;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+}
+
+#design video {
+    margin: 10px;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+}
+
+#chatbot {
+    margin-top: 130px;
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(#FF1212, #FFDDDD);
+    color: black;
+}
+
+#chatbot iframe {
+    border-style: solid;
+    border-color: black;
+    border-width: medium;
+}
+
+#inspiration {
+    background: linear-gradient(#FFDDDD, #FF1212);
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 130px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.inspi {
+    width: 500px;
+    height: 300px;
+    border-color: black;
+    border-style: solid;
+    border-width: medium;
+    transition: transform .2s;
+}
+
+.inspi:hover {
+    transform: scale(0.9)
+}
+
+#contact {
+    background-color: floralwhite;
+    height: 350px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+#contact iframe {
+    border-style: solid;
+    border-radius: 50px;
+    border-width: thick;
+    width: 500px;
+    height: 300px;
+    float: right;
+    margin-top: 25px;
+    border-color: black;
+}
+
+#gmail {
+    display: inline;
+    font-family: 'Cookie', cursive;
+    font-size: 50px;
+    color: black;
+}
+
+#insta {
+    display: inline;
+    font-family: 'Cookie', cursive;
+    font-size: 60px;
+    color: black;
+}
+
+#youtube {
+    display: inline;
+    font-family: 'Cookie', cursive;
+    font-size: 60px;
+    color: black;
+}
